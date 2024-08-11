@@ -1265,3 +1265,41 @@ ul {
     width: 100%;
   }
 }
+
+.social-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float,
+.instagram-float,
+.facebook-float {
+  margin-bottom: 10px; /* Space between each button */
+}
+
+.social-float img {
+  display: block;
+}
+
+.highlight-email {
+  font-weight: bold;           /* Makes the text bold */
+  color: #2567d9ea;              /* Gmail's red color */
+  background-color: #e6f3fcfd;   /* Light background to make it stand out */
+  padding: 2px 4px;            /* Some padding around the text */
+  border-radius: 4px;          /* Rounded corners */
+  text-decoration: underline;  /* Underline the email address */
+}
+
+.highlight-phone {
+  font-weight: bold;           /* Makes the text bold */
+  color: #007bff;              /* A blue color commonly used for links */
+  text-decoration: underline;  /* Underline the phone numbers */
+}
+
+.highlight-location {
+  font-weight: bold;           /* Makes the text bold */
+  color: #007bff;              /* A blue color commonly used for links */
+  text-decoration: underline;  /* Underline the location text */
+}
