@@ -4,7 +4,7 @@
 
 /* global css */
 :root {
-  --main-color: #187bcd;
+  --main-color: #cd1857;
   --color-1: #e91e63;
   --color-2: #f5ae10;
   --color-3: #09d69c;
@@ -338,9 +338,9 @@ ul {
   z-index: 1;
   height: 400px;
   width: 400px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.224);
   border-radius: 50%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -517,8 +517,8 @@ ul {
   background-color: var(--black-100);
 }
 .fun-facts-img img {
-  max-width: 250px;
-  width: 80vh;
+  max-width: 350px;
+  width: 100vh;
   height: 65vh;
   box-shadow: var(--shadow-black-100);
   border-radius: 32px;
@@ -577,12 +577,12 @@ ul {
 
 /* app screenshots carousel */
 .screenshot-item {
-  margin: 15px;
+  margin: 10px;
   /* background-color: red; */
 }
 .screenshot-item img {
   width: 100%;
-  max-width: 250px;
+  max-width: 500px;
   display: block;
   margin: auto;
 }
@@ -765,6 +765,19 @@ ul {
   /* background-color: red;*/
   font-size: 16px;
   color: var(--color-2);
+}
+.testimonial-item {
+  text-align: center; /* Center the content horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px; /* Add some space between the icon and the text */
 }
 
 /* price section */
