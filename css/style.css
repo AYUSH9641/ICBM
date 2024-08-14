@@ -92,6 +92,162 @@ ul {
 .btn-2:hover {
   color: var(--main-color);
   background-color: #fff;
+
+/*************/
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .btn-1, .btn-2 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .home-text h1 {
+    font-size: 32px;
+  }
+
+  .home-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .home-img img {
+    max-width: 200px;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .features .feature-item {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .features .feature-item h3 {
+    font-size: 20px;
+  }
+
+  .features .feature-item p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fun-facts-img img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  .fun-fact-item h3 {
+    font-size: 30px;
+  }
+
+  .fun-fact-item span {
+    font-size: 14px;
+  }
+
+  .testimonial-item {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .testimonial-item h3 {
+    font-size: 16px;
+  }
+
+  .testimonial-item p {
+    font-size: 14px;
+  }
+
+  .pricing-plan {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .pricing-plan h3 {
+    font-size: 24px;
+  }
+
+  .pricing-plan p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* Large Desktop Design */
+@media (min-width: 1200px) {
+  .home-text h1 {
+    font-size: 50px;
+  }
+
+  .home-text p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .home-img img {
+    max-width: 300px;
+  }
+
+  .section-title h2 {
+    font-size: 48px;
+  }
+
+  .features .feature-item {
+    padding: 40px;
+  }
+
+  .features .feature-item h3 {
+    font-size: 24px;
+  }
+
+  .features .feature-item p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .fun-facts-img img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .fun-fact-item h3 {
+    font-size: 48px;
+  }
+
+  .fun-fact-item span {
+    font-size: 18px;
+  }
+
+  .testimonial-item {
+    padding: 40px;
+  }
+
+  .testimonial-item h3 {
+    font-size: 22px;
+  }
+
+  .testimonial-item p {
+    font-size: 18px;
+  }
+
+  .pricing-plan {
+    padding: 40px;
+  }
+
+  .pricing-plan h3 {
+    font-size: 28px;
+  }
+
+  .pricing-plan p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+/*************/
 }
 @keyframes spin_01 {
   0% {
