@@ -9,13 +9,13 @@ Visit the website [www.icbmedu.com](http://www.icbmedu.com)
 
 
 ## Features
-**Responsive Design**: Adapts to various screen sizes.
+**Responsive Design**:  Adapts to various screen sizes.
 
-**Interactive UI**: JavaScript-powered interactions.
+**Interactive UI**:  JavaScript-powered interactions.
 
-**Clean Layout**: CSS-styled pages for easy navigation.
+**Clean Layout**:  CSS-styled pages for easy navigation.
 
-**Optimized Performance**: Fast loading with efficient resource management.
+**Optimized Performance**:  Fast loading with efficient resource management.
 
 ## Technologies Used
 
