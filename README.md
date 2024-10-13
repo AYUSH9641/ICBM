@@ -3,6 +3,10 @@ ICBM is a static website built to showcase a college's offerings, events, and re
 
 Live Demo - 
 Visit the website www.icbmedu.com
+## <span style="font-size:22px">Live Demo</span>
+
+Visit the website [www.icbmedu.com](http://www.icbmedu.com)
+
 
 Features
 Responsive Design: Adapts to various screen sizes.
