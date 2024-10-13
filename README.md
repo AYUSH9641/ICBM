@@ -24,7 +24,7 @@ HTML: Structure of the website.
 CSS: Styling and layout.
 
 JavaScript: Frontend interactivity.
-### Technologies Used
+## Technologies Used
 
 - **HTML**: Structure of the website.
 - **CSS**: Styling and layout.
